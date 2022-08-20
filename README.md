@@ -1,10 +1,13 @@
-#### Infrastructure Layer Architecture Diagram
+#### Objectives
 Create  the necessary infrastructure using AWS AKS to deploy Kubernetes Pods for various services to scale a containerized application, using best practice networking and security architecture.
-![Terraforming example Design Architecture Diagram](/architecture_design.jpg)
+
 
 #### Infrastructure Layer Architecture Diagram
 
 ![AWS Architecture Diagram](/infra_layer_architecture.jpg)
+
+This infrastructure uses a two layered architecture as shown in diagram below Only the code for the infrastructure layer is included. This layer is to be deplyed first.
+![Terraforming example Design Architecture Diagram](/architecture_design.jpg)
 
 #### PLEASE READ BEFORE DEPLOYMENT
 1. Only deploy in a region with at least 3 availability zones ( 3AZ's).  This is because of the current network architecture. 
