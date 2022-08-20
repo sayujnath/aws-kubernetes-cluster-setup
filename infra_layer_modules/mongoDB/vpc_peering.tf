@@ -1,3 +1,11 @@
+#                   This version of the code is incomplete &untested and specially released 
+#                   for non-commecial public consumption. 
+
+#                   For a production ready version,
+#                   please contact the author at info@canditude.com
+#                   Additional middleware is also required in application code to interact
+#                   with the authorizaion servers 
+
 # Create the peering connection request to the prod vpc
 resource "mongodbatlas_network_peering" "mongodb_peer" {
     accepter_region_name   = var.aws_region

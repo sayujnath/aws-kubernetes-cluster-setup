@@ -1,4 +1,10 @@
+#                   This version of the code is incomplete &untested and specially released 
+#                   for non-commecial public consumption. 
 
+#                   For a production ready version,
+#                   please contact the author at info@canditude.com
+#                   Additional middleware is also required in application code to interact
+#                   with the authorizaion servers 
 # ############################## MONGODB ATLAS################################
 # ############################### SUBNET PEERING #############################
 # the following assumes an AWS provider is configured
